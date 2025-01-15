@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem;
     background-color: white;
 }
 
@@ -13,20 +12,15 @@
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 1rem;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
+    
     
 }
 
-.content:hover {
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
-}
+
 
 .groupPart1, .groupPart2 {
     display: flex;
@@ -61,9 +55,30 @@
 
 }
 
+.imgBanner2 {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    background-image: url('../../../assets/stacked.svg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 0 0 0 4rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+}
+
+.rightSide {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}   
+
 .img_aux2 {
     width: 200px;
-    height: 100px;
+    height: 100%;
     object-fit: contain;
 
 }
@@ -193,15 +208,124 @@
 
 .sideBarAux {
     width: 8px;
-    height: 100px;
-    background-color: #454545;
+    height: 400px;
+    background-color: white;
+    border-radius: 1rem;
 }
+
+.groupRight {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.bgRight {
+    width: 400px;
+    height: 100%;
+}
+
+.bgRight1 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem 0 0 1rem;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    border-right: 0px;
+}
+
+.bgRight1:hover {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.bgRight2 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem 0 0 1rem;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    border-right: 0px;
+}
+
+.bgRight2:hover {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.bgRight3 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem 0 0 1rem;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    border-right: 0px;
+}   
+
+.bgRight3:hover {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.bgRight4 {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    height: 80px;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 1rem 0 0 1rem;
+    padding: 8px;
+    transition: all 0.3s ease-in-out;
+    border-right: 0px;
+}
+
+.bgRight4:hover {
+    background-color: white;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.imageBox {
+    width: 128px;
+    height: 100%;
+    border-radius: 1rem;
+    padding: 8px;
+    background-color: rgb(255, 255, 255, 0.1);
+    object-fit: contain;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .groupImage {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0 2rem;
+    flex-direction: column;
+    width: 520px;
+    padding: 2rem;
     
 }
 
@@ -226,6 +350,18 @@
 .title {
     font-weight: bold;
     text-align: center;
+}
+
+.title2 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: #b4b4b4;
+    background-color: transparent;
+    border: 0px solid #454545;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    transition: all 0.3s ease-in-out;
 }
 
 .description {
@@ -269,3 +405,163 @@
     height: 1rem;
     background-color: #454545;
 }
+
+.image1 {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+}
+
+.title1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 48px;
+    color: white;
+    margin-top: 1rem;
+}
+
+/* From Uiverse.io by Praashoo7 */ 
+.flipCard {
+    background-color: transparent;
+    font-family: 'Questrial', sans-serif;
+    width: 240px;
+    height: 154px;
+    perspective: 1000px;
+    color: white;
+  }
+  
+  .heading8264 {
+    position: absolute;
+    letter-spacing: .2em;
+    font-size: 0.5em;
+    top: 2em;
+    left: 18.6em;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 6.8em;
+    left: 11.7em;
+  }
+  
+  .chip {
+    position: absolute;
+    top: 2.3em;
+    left: 1.5em;
+  }
+  
+  .contactless {
+    position: absolute;
+    top: 3.5em;
+    left: 12.4em;
+  }
+  
+  .number {
+    position: absolute;
+    font-weight: bold;
+    font-size: .6em;
+    top: 8.3em;
+    left: 1.6em;
+  }
+  
+  .validThru {
+    position: absolute;
+    font-weight: bold;
+    top: 635.8em;
+    font-size: .01em;
+    left: 140.3em;
+  }
+  
+  .date8264 {
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.5em;
+    top: 13.6em;
+    left: 3.2em;
+  }
+  
+  .name {
+    position: absolute;
+    font-weight: bold;
+    font-size: 0.5em;
+    top: 16.1em;
+    left: 2em;
+  }
+  
+  .strip {
+    position: absolute;
+    background-color: black;
+    width: 15em;
+    height: 1.5em;
+    top: 2.4em;
+    background: repeating-linear-gradient(
+      45deg,
+      #303030,
+      #303030 10px,
+      #202020 10px,
+      #202020 20px
+    );
+  }
+  
+  .mstrip {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 8em;
+    height: 0.8em;
+    top: 5em;
+    left: .8em;
+    border-radius: 2.5px;
+  }
+  
+  .sstrip {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 4.1em;
+    height: 0.8em;
+    top: 5em;
+    left: 10em;
+    border-radius: 2.5px;
+  }
+  
+  .code {
+    font-weight: bold;
+    text-align: center;
+    margin: .2em;
+    color: black;
+  }
+  
+  .flipCardInner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flipCard:hover .flipCardInner {
+    transform: rotateY(180deg);
+  }
+  
+  .flipCardFront, .flipCardBack {
+    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 1rem;
+  }
+  
+  .flipCardFront {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    background-color: rgb(255, 255, 255, 0.1);
+  }
+  
+  .flipCardBack {
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 2px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -1px 0px inset;
+    background-color: rgb(255, 255, 255, 0.1);
+    transform: rotateY(180deg);
+  }

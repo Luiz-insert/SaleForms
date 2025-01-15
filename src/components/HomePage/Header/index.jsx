@@ -1,7 +1,8 @@
 import React, { Fragment } from 'react'
 import styles from './styles.module.css'
 import logo from '../../../assets/coddara_logo.svg'
-
+import Button from './Components/ButtonContact/Button'
+import ButtonGeneric1 from './Components/ButtonGeneric1'
 export default function Header() {
  
 
@@ -15,10 +16,12 @@ export default function Header() {
           </div>
         </div>
         <div className={styles.groupBtns}>
-            <button className={styles.btn1}>Products</button>
-            <button className={styles.btn2}>Solutions</button>
-            <button className={styles.btn3}>Pricing</button>
-            <button className={styles.btn4}>Contact</button>
+            <ButtonGeneric1 props={{text: 'Products'}} />
+            <ButtonGeneric1 props={{text: 'Solutions'}} />
+            
+            <ButtonGeneric1 props={{text: 'Pricing'}} />
+            <Button props={{text: 'Contato'}} />
+            
         </div>
         <div className={styles.backgroundFade}></div>
       </header>

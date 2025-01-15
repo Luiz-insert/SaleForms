@@ -8,6 +8,16 @@ export default function Card3({ props }) {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
+                <div className={styles.groupPart0}>
+                    <div className={styles.ceoPart1}>
+                        <div className={styles.controlPanel}>
+                            <div className={styles.controlButton}></div>
+                            <div className={styles.controlButton}></div>
+                            <div className={styles.controlButton}></div>
+                            <div className={styles.controlSlider}></div>
+                        </div>
+                    </div>
+                </div>
                 <div className={styles.groupPart1}>
                     <div className={styles.groupTitle}>
                         <p className={styles.title}>{props.title1}</p>
@@ -32,10 +42,6 @@ export default function Card3({ props }) {
                             <p className={styles.title}>{props.label4}</p><img src={props.image2} alt="card" className={styles.img2} />
                         </div>
                     </div>
-                </div>
-
-                <div className={styles.waterMark}>
-                    <p className={styles.waterMarkText1}>SPA Lab</p> <div className={styles.waterMarkLine}></div> <p className={styles.waterMarkText2}>Coddara</p>
                 </div>
             </div>
         </div>

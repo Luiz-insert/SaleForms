@@ -4,8 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 4rem;
-    background-color: white;
+    background-color: transparent;
 }
 
 .content {
@@ -18,14 +17,15 @@
     justify-content: center;
     align-items: center;
     margin: 4rem 0;
-    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease-in-out;
     
 }
 
-.content:hover {
-    transition: all 0.3s ease-in-out;
-    cursor: pointer;
+.groupPart0 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
 }
 
 .groupPart1, .groupPart2 {
@@ -309,4 +309,50 @@
     width: 1px;
     height: 1rem;
     background-color: #454545;
+}
+
+.controlPanel {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    gap: 1rem;
+}
+
+.controlButton {
+    width: 20px;
+    height: 20px;
+    background-color: #555;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.controlButton:hover {
+    background-color: #777;
+}
+
+.controlSlider {
+    width: 100px;
+    height: 10px;
+    background-color: #555;
+    border-radius: 5px;
+    position: relative;
+}
+
+.controlSlider::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background-color: #777;
+    border-radius: 5px;
+    left: 0;
+    transition: left 0.3s;
+}
+
+.controlSlider:hover::before {
+    left: 80px;
 }

@@ -19,11 +19,15 @@ export default function Card({ props }) {
                     </div>
                 </div>
                 <div className={styles.groupPartDown}>
-                    <img src={props.imageMonitor} alt="monitor" />
-                    <img src={props.imageNotebook} alt="notebook" />
+                    <div className={styles.card}>
+                        <img src={props.imageMonitor} alt="monitor" />
+                        <img src={props.imageNotebook} alt="notebook" />
+                        <img src={props.imageSmartphone} alt="smartphone" />
+                    </div> 
                 </div>
+                <div className={styles.description2}>{props.description2}</div>
                 <div className={styles.waterMark}>
-                    <p className={styles.waterMarkText1}>SPA Lab</p> <div className={styles.waterMarkLine}></div> <p className={styles.waterMarkText2}>Coddara</p>
+                    {/* <p className={styles.waterMarkText1}>SPA Lab</p> <div className={styles.waterMarkLine}></div> <p className={styles.waterMarkText2}>Coddara</p> */}
                 </div>
             </div>
         </div>

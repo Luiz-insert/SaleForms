@@ -5,8 +5,8 @@
 <path d="M3 9.15952C3 9.15952 122.851 2 200 2C277.149 2 397 9.15952 397 9.15952V169C397 169 276.933 161.419 200 161.419C123.067 161.419 3 169 3 169V9.15952Z" fill="url(#paint0_angular_795_610)"/>
 <defs>
 <radialGradient id="paint0_angular_795_610" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(208 73.5) rotate(154.983) scale(82.7647 62.3266)">
-<stop stop-color="white"/>
-<stop offset="1" stop-color="#F9F9F9"/>
+<stop stop-color="#eeeeee"/>
+<stop offset="1" stop-color="#eeeeee"/>
 </radialGradient>
 </defs>
 </svg>
