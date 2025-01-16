@@ -1,27 +1,47 @@
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 120px;
-  width: 100%;
+  overflow: hidden;
+  width: 200%;
   background-color: #454545;
+
+
 }
 
 .marquee {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  animation: marquee 10s linear infinite;
+
+  animation-play-state: running;
+}
+
+.marquee:hover {
+  animation-play-state: paused;
 }
 
 .marqueeContent {
-    display: flex;
-    background-color: transparent;
-    justify-content: space-evenly;
-    gap: 10px;
-    width: 100%;
+  display: flex;
+  width: 200%; /* Duplicar o conteúdo para o efeito de loop */
+  height: 120px;
+ 
+}
+
+.partner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
-    width: 80px;
+  max-width: 100%;
+  height: auto;
+  width: 240px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%); /* Mover apenas metade do conteúdo */
+  }
 }

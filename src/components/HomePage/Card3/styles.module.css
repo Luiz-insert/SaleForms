@@ -321,6 +321,11 @@
     gap: 1rem;
 }
 
+.ceoPart2 {
+    display: flex;
+    justify-content: center;
+}
+
 .controlButton {
     width: 20px;
     height: 20px;

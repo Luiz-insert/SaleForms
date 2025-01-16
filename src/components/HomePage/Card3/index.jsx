@@ -17,6 +17,9 @@ export default function Card3({ props }) {
                             <div className={styles.controlSlider}></div>
                         </div>
                     </div>
+                    <div className={styles.ceoPart2}>
+                        <img src={props.imageCEO} alt="card" className={styles.img3} />
+                    </div>
                 </div>
                 <div className={styles.groupPart1}>
                     <div className={styles.groupTitle}>

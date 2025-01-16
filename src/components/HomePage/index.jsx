@@ -24,9 +24,11 @@ import srv2 from '../../assets/srv2.svg'
 import srv3 from '../../assets/srv3.png'
 import srv4 from '../../assets/srv4.svg'
 
-import logo_partner_01 from '../../assets/coddara_logo.svg'
-import logo_partner_02 from '../../assets/coddara_logo.svg'
-import logo_partner_03 from '../../assets/coddara_logo.svg'
+import logo_partner_01 from '../../assets/exemploLogo.png'
+import logo_partner_02 from '../../assets/exemploLogo2.png'
+import logo_partner_03 from '../../assets/exemploLogo3.png'
+
+import ceo from '../../assets/group_CEO.svg'
 
 
 export default function HomePage() {
@@ -45,7 +47,7 @@ export default function HomePage() {
         {
           title: 'SPA Lab',
           description: 'Desenvolvimento de LandPages extraordinárias, com singularidade em cada detalhe!',
-          description2: 'Compativel com diferentes resoluções com desenvolvimento responsivo e personalizado garantindo a qualidade e a experiência do usuário!',
+          description2: '* Compativel com diferentes resoluções garantido responsividade e consistência nas animações',
           imageSpaLogo: spaLogo,
           imageMonitor: monitor,
           imageNotebook: notebook,
@@ -83,7 +85,9 @@ export default function HomePage() {
           label1: 'Certificado SSL',
           label2: 'Dominio personalizado',
           label3: 'Backup em casos de erros graves',
-          label4: 'Algoritmo para otimizar o SEO'
+          label4: 'Algoritmo para otimizar o SEO',
+
+          imageCEO: ceo,
         }
       } />
       <div className={styles.content}></div>

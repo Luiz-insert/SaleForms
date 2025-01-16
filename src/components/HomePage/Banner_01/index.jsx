@@ -11,7 +11,7 @@ export default function Banner_01() {
           <div className={styles.contentBackground}>
             <img src={logoBanner} alt="banner_01" className={styles.logoBanner} />
             <div className={styles.groupText}>
-              <p className={styles.textBanner}>Desenvolvimento criativo para demandas exoticas...</p>
+              <p className={styles.textBanner}>Páginas Que Traduzem a Essência do Seu Negócio</p>
             </div>
           </div>
           <div className={styles.contentBackgroundEffect}>
