@@ -88,6 +88,7 @@ export default function HomePage() {
           label4: 'Algoritmo para otimizar o SEO',
 
           imageCEO: ceo,
+          titleCeo: 'Painel de controle com monitoramento de tráfego e desempenho da página',
         }
       } />
       <div className={styles.content}></div>

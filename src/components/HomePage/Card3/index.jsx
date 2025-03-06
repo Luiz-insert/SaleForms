@@ -8,6 +8,11 @@ export default function Card3({ props }) {
     return (
         <div className={styles.container}>
             <div className={styles.content}>
+                <div className={styles.textTitles}>
+
+                    <p className={styles.title}>{props.titleCeo}</p>
+
+                </div>
                 <div className={styles.groupPart0}>
                     <div className={styles.ceoPart1}>
                         <div className={styles.controlPanel}>
